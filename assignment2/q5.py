@@ -1,0 +1,6 @@
+file1 = open("file.txt",'r')
+file2 = open("copy.txt",'w')
+content = file1.read()
+file2.write(content)
+file1.close()
+file2.close()
